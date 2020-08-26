@@ -1,5 +1,4 @@
 var start = 1;
 for (var i = 0; i < 10; i++){
-  document.write(start *= 2);
-   document.write('\n');
+  document.write((start *= 2) + "<br />");
 }
