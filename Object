@@ -1,0 +1,17 @@
+var ItStudent = function(name, course, lessons, homeWorks, points){
+	
+  this.nameStudent = name;
+  this.course = course;
+  this.countOfLessons = lessons;
+  this.countOfHomeworks = homeWorks;
+  this.numberOfPoints = points;
+}
+
+var jacob = new ItStudent("Yakiv", "ManualQA", 35, 15, 1155);
+
+console.log(jacob.nameStudent);
+console.log(jacob.course);
+console.log(jacob.countOfLessons);
+console.log(jacob.countOfHomeworks);
+console.log(jacob.numberOfPoints);
+  
