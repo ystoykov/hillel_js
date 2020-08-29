@@ -1,6 +1,6 @@
 var res = prompt("Введите число", "0123456789");
 if(res == 0){
-  document.write("Это ноль");
+  console.log("Это ноль");
 } else if (res%2 == 0) {
-    document.write("Четное");
-} else document.write("Нечетное");
+    console.log("Четное");
+} else console.log("Нечетное");
