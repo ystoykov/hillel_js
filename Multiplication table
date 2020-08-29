@@ -3,10 +3,10 @@ var digit2 = 1;
 
 while (digit1 <= 10) {
     while(digit2 <= 10) {
-        document.write(digit1 + " * " + digit2 + " = " + (digit1 * digit2) + "<br />");
+        console.log(digit1 + " * " + digit2 + " = " + (digit1 * digit2) + "<br />");
         digit2++;
     };
-    document.write("<br />");
+    console.log("<br />");
     digit2 = 1;
     digit1++;
 };
